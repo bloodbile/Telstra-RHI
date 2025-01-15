@@ -1,4 +1,4 @@
-# Telstra-RHI
+# 🎀 Telstra-RHI 🎀
 A vulnerability was recently discovered in the HTTP(S) remote access webpage for the Telstra Smart Modem Gen 2. This vulnerability allows for unauthenticated HTTP Response Header Injection, giving attackers the ability to manipulate HTTP headers and potentially inject malicious payloads into server responses. The issue is caused by user-supplied data being unsafely copied into the Content-Disposition response header without proper validation or sanitization. The vulnerability was demonstrated by sending a specially crafted HTTP GET request to the server, targeting the robots.txt resource with a malicious payload embedded in the URL path:<br/>
 
 """<br/>
